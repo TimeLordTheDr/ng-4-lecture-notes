@@ -1,3 +1,10 @@
 img {
   width: 15em;
 }
+
+button {
+  background-color: darkcyan;
+  color: white;
+  padding: .5em;
+  border-radius: .5em;
+}

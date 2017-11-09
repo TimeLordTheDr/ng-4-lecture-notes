@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class Component2viewBindingComponent implements OnInit {
 
   ngLogo = 'https://angular.io/assets/images/logos/angular/logo-nav@2x.png';
+  buttonStatus = false;
 
   constructor() { }
 
