@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Event2reactionBindingComponent implements OnInit {
 
+  myEvent(e){
+    alert('type: ' + e.type + '___   target: ' + e.target);
+  }
+
   constructor() { }
 
   ngOnInit() {
