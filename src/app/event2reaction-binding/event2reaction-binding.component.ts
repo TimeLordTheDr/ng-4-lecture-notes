@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Event2reactionBindingComponent implements OnInit {
 
-  myEvent(e){
+  myEvent(e){ // EVENT VAR IS OPTIONAL
     alert('type: ' + e.type + '___   target: ' + e.target);
   }
 
