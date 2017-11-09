@@ -9,7 +9,7 @@ export class AppComponent { // MODULE.EXPORTS = app-root (CamelCased)
   title = 'app';
 }
 
-// 0. Create a proj with ng new projectName [--style=scss || --style=sass] to make it create already sass-styled project
+// 0. Create a proj with ng new projectName [--style=scss || --style=sass || --style=less] to make it create already sass-styled project
 // 1. Components r generated with "ng g component my-new-component"
 // *.spec.ts file is used for unit testing
 // 2. imports {MyNewComponentComponent} to app.modules.ts
