@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyNewComponentComponent implements OnInit {
 
+  John = { // U CAN STILL
+    name: 'John',
+    position: 'JS Dev'
+  }
+
   constructor() { }
 
   ngOnInit() {

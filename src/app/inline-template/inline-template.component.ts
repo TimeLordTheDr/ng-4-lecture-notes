@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InlineTemplateComponent implements OnInit {
 
-  word = 'template.js(!)';
+  word = 'template.js(!!!)';
 
   constructor() { }
 
