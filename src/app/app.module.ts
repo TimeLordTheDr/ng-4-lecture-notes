@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MyNewComponentComponent } from './my-new-component/my-new-component.component';
 import { InlineTemplateComponent } from './inline-template/inline-template.component';
 import { Component2viewBindingComponent } from './component2view-binding/component2view-binding.component';
+import { Event2reactionBindingComponent } from './event2reaction-binding/event2reaction-binding.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { Component2viewBindingComponent } from './component2view-binding/compone
     AppComponent,
     MyNewComponentComponent,
     InlineTemplateComponent,
-    Component2viewBindingComponent
+    Component2viewBindingComponent,
+    Event2reactionBindingComponent,
   ],
   imports: [
     BrowserModule
