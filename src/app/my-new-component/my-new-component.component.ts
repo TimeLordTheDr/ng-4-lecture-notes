@@ -10,7 +10,9 @@ export class MyNewComponentComponent implements OnInit {
   John = { // U CAN STILL
     name: 'John',
     position: 'JS Dev'
-  }
+  };
+
+  arr = ['Jack', 'Jill', 'James'];
 
   constructor() { }
 

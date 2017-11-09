@@ -1,6 +1,19 @@
+<span>************************************</span>
 <p>
-
   my-new-component works!
-  Meet {{John.name}}! He is a {{John.position}}
-
+  Meet {{John.name}}! He is a {{John.position}} <-- [[ Obj parse ]]
 </p>
+<span>************************************</span>
+<div>
+  [[ Arr parse ]] :
+  <ul>
+    <li *ngFor="let x of arr">Guest: {{x}}</li>
+  </ul>
+</div>
+<span>************************************</span>
+<p *ngIf="true; then tmpl1 else tmpl2"></p>
+<ng-template #tmpl1><p>Truthy (*ngIf demo)</p></ng-template>
+<ng-template #tmpl2><p>Falsy (*ngIf demo)</p></ng-template>
+<span>************************************</span>
+
+
