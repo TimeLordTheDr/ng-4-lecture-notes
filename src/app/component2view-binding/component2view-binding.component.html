@@ -1,0 +1,9 @@
+<span>*******************************</span>
+<div>
+  component2view-binding works!!!
+  <p>
+    <img src="{{ngLogo}}"> <!--THIS WAY ONLY WORKS IF WE BIND A STR-->
+    <img [src]="ngLogo">
+    <img bind-src="ngLogo">
+  </p>
+</div>
