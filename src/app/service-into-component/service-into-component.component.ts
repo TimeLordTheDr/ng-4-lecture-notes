@@ -8,9 +8,16 @@ import {DataService} from "../data.service";
 })
 export class ServiceIntoComponentComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dataService:DataService) {
 
-  ngOnInit() {
+  }
+
+  someProperty:string = '';
+
+  ngOnInit() { // Everything inside it will run when component loads
+    alert(this.dataService.cars);
+
+    this.someProperty = this.dataService.myData();
   }
 
 }

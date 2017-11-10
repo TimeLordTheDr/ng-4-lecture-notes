@@ -14,5 +14,5 @@ export class AppComponent { // MODULE.EXPORTS = app-root (CamelCased)
 // *.spec.ts file is used for unit testing
 // 2. imports {MyNewComponentComponent} to app.modules.ts
 // 3. use [ngDir]="proFromTSFile"-notation for attr binding and {{propFromTSFile}} for innerHTML binding
-// 4. Add service with the same syntax as component. Still include it into "PROVIDER" array
-
+// 4. Add service with the same syntax as component into MODULE file. Still include it into "PROVIDER" array
+// 5. Import service to the component you want tot use it in and exploit it as "constructor(private serviceAlias:ImportedServiceName)"
