@@ -21,4 +21,5 @@ export class AppComponent { // MODULE.EXPORTS = app-root (CamelCased)
 // *****************************************************EXRAS-->
 // 6. "npm install @angular/animations --save" additional component
 // 7. Import that component into main MODULE.TS file with "BrowserAnimationsModule". Note, you must check which name is to import
+// 8. List additional components in "imports" array
 
