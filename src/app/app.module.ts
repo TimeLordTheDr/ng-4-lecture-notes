@@ -6,6 +6,8 @@ import { MyNewComponentComponent } from './my-new-component/my-new-component.com
 import { InlineTemplateComponent } from './inline-template/inline-template.component';
 import { Component2viewBindingComponent } from './component2view-binding/component2view-binding.component';
 import { Event2reactionBindingComponent } from './event2reaction-binding/event2reaction-binding.component';
+import { DataService } from './data.service';
+import { ServiceIntoComponentComponent } from './service-into-component/service-into-component.component';
 
 
 @NgModule({
@@ -15,11 +17,12 @@ import { Event2reactionBindingComponent } from './event2reaction-binding/event2r
     InlineTemplateComponent,
     Component2viewBindingComponent,
     Event2reactionBindingComponent,
+    ServiceIntoComponentComponent,
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
