@@ -1,19 +1,35 @@
-<span>************************************</span>
+<div>*******Obj parse**************************</div>
 <p>
   my-new-component works!
-  Meet {{John.name}}! He is a {{John.position}} <-- [[ Obj parse ]]
+  Meet {{John.name}}! He is a {{John.position}}
 </p>
-<span>************************************</span>
+
+
+<div>*******Arr ngFor/of************************</div>
 <div>
-  [[ Arr parse ]] :
   <ul>
     <li *ngFor="let x of arr">Guest: {{x}}</li>
   </ul>
 </div>
-<span>************************************</span>
+
+
+<div>*******ngIf; then else***********************</div>
 <p *ngIf="false; then tmpl1 else tmpl2"></p>
 <ng-template #tmpl1><p>Truthy (*ngIf demo)</p></ng-template>
 <ng-template #tmpl2><p>Falsy (*ngIf demo)</p></ng-template>
-<span>************************************</span>
+
+
+<div>*******CSS class binding********************</div>
+<p [class]="userClass">COLORED TEXT CLASS DEFINED AS A VAR IN *.TS</p>
+<p class="userClass">COLORED TEXT CLASS SIMPLY DEFINED IN *.component.css</p>
+<p [class.boolSwitchClass]="onOffCSS">class.boolSwitchClass just turns on and off 'boolSwitchClass' defined in *.component.css with var from *.TS</p>
+<p [ngClass]=" userClasses ">11111111</p>
+
+
+<div>*******style binding*************************</div>
+<p [style.color]="reddy">[style.color]="reddy"</p>
+<p [style.color]="onOffCSS? 'yellowgreen':'orange'">If else defining the style</p>
+<p [ngStyle]="styleObj">ngStyle accept style obj</p>
+
 
 

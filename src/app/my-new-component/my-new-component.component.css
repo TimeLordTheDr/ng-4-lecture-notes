@@ -1,0 +1,18 @@
+.greenStyle {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.userClass {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.boolSwitchClass {
+  color: darkorange;
+  font-weight: bold;
+}
+
+.underClass {
+  text-decoration: underline;
+}

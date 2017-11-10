@@ -13,3 +13,5 @@ export class AppComponent { // MODULE.EXPORTS = app-root (CamelCased)
 // 1. Components r generated with "ng g component my-new-component"
 // *.spec.ts file is used for unit testing
 // 2. imports {MyNewComponentComponent} to app.modules.ts
+// 3. use [ngDir]="proFromTSFile"-notation for attr binding and {{propFromTSFile}} for innerHTML binding
+
