@@ -8,7 +8,7 @@ import { Component2viewBindingComponent } from './component2view-binding/compone
 import { Event2reactionBindingComponent } from './event2reaction-binding/event2reaction-binding.component';
 import { DataService } from './data.service';
 import { ServiceIntoComponentComponent } from './service-into-component/service-into-component.component';
-import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
